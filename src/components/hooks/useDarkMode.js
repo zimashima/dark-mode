@@ -14,7 +14,10 @@ export const useDarkMode = (mode) => {
         }
     },[toggle])
 
+    const setMode = e => {
+        e.preventDefault();
+        setToggle(!toggle);
+      };
 
-
-    return [toggle, setToggle]
+    return [toggle, setMode]
 }
