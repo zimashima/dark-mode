@@ -251,3 +251,21 @@ text-align: left;
     border: none;
   }
 }
+
+//starts here
+
+.info{
+  font-size: 20px;
+  margin: 10px;
+}
+
+.infospan{
+  margin: 20px;
+  padding: 5px;
+}
+
+.infospan:hover{
+  background-color: #f68819;
+  border-radius: 10px;
+  transition: 0.2s;
+}
